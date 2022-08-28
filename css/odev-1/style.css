@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+html {
+    font-size: 20px;
+}
+.container{
+    padding:30px
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color:rgb(204, 54, 79)
+}
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+.menu {
+    padding: 20px;
+}
+.menu ul li{
+    display: inline;
+    margin: 10px;
+}
+.menu  a{
+    color:purple;
+    font-size: 1.4em;
+}
+.products-list{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+}
+.products{
+    display: flex;
+    justify-content: center;
+}
+.products ol li {
+    margin-bottom: 50px;
+}
